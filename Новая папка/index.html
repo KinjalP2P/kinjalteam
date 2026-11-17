@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080b12">
+<meta name="description" content="KinjalTeam — будущая компания с большой целью.">
+<title>KinjalTeam — Большая цель начинается с малого</title>
+<style>
+:root{--gold:#ffbd55;--ink:#080b12;--muted:#c3c6ce}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--ink);color:#fff;font-family:Arial,sans-serif;line-height:1.65}
+a{color:inherit;text-decoration:none}.wrap{width:min(1100px,calc(100% - 40px));margin:auto}
+header{position:absolute;top:0;left:0;right:0;z-index:3;background:#080b1288;border-bottom:1px solid #ffffff22;backdrop-filter:blur(12px)}
+nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:19px}.brand img{width:45px;height:45px;object-fit:cover;border-radius:50%;border:2px solid var(--gold)}.brand b{color:var(--gold)}
+.links{display:flex;align-items:center;gap:22px;color:#ddd;font-size:14px}.links a:hover{color:var(--gold)}
+button,.btn{border:1px solid #ffbd5590;background:#171923;color:white;border-radius:999px;padding:11px 17px;font-weight:bold;cursor:pointer;display:inline-block}
+.hero{min-height:100vh;display:flex;align-items:center;position:relative;background:linear-gradient(90deg,#04070deF,#04070d99 58%,#04070d44),linear-gradient(0deg,#080b12,transparent 40%),url('assets/kinjalteam-avatar.jpg') center/cover no-repeat}
+.content{padding:145px 0 90px;max-width:720px}.eyebrow{color:var(--gold);font-size:12px;font-weight:bold;letter-spacing:.2em;text-transform:uppercase}
+h1{font-size:clamp(48px,8vw,90px);line-height:1;margin:18px 0;letter-spacing:-.05em}h1 span{color:var(--gold)}
+.lead{font-size:clamp(17px,2vw,21px);color:#e1e2e6;max-width:680px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.gold{background:linear-gradient(120deg,#e69a32,#ffd17b);color:#17100a;border:0}
+section{padding:80px 0}.dark{background:linear-gradient(#0a0e17,#101521)}
+h2{font-size:clamp(30px,5vw,46px);line-height:1.15;margin:12px 0 18px}.intro{max-width:760px;color:var(--muted);font-size:17px}
+.callout{margin-top:30px;padding:clamp(24px,5vw,44px);border:1px solid #ffbd5555;border-radius:22px;background:linear-gradient(135deg,#ffbd5518,#ffffff06);font-size:clamp(19px,2.5vw,25px)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+.card{padding:25px;border:1px solid #ffffff22;border-radius:18px;background:#111722cc}.num{color:var(--gold);font-size:12px;font-weight:bold;letter-spacing:.15em}.card h3{margin:10px 0}.card p{color:var(--muted);margin:0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}.two .card{min-height:210px}.two .btn{margin-top:18px}
+.note{color:var(--muted);font-size:13px;margin-top:18px}
+footer{border-top:1px solid #ffffff22;padding:24px 0;color:#aeb2bd;font-size:13px}footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:720px){.links a{display:none}.grid,.two{grid-template-columns:1fr}.hero{background-position:58% center}section{padding:65px 0}}
+</style></head><body>
+<header><nav class="wrap">
+<a class="brand" href="#top"><img src="assets/kinjalteam-avatar.jpg" alt="Аватар KinjalTeam"><span>Kinjal<b>Team</b></span></a>
+<div class="links"><a href="#about" data-ru="О нас" data-en="About">О нас</a><a href="#goal" data-ru="Наша цель" data-en="Our goal">Наша цель</a><a href="#join" data-ru="Присоединиться" data-en="Join us">Присоединиться</a><button id="lang">EN</button></div>
+</nav></header>
+<main id="top">
+<div class="hero"><div class="wrap"><div class="content">
+<div class="eyebrow" data-ru="Будущая компания • Большая цель" data-en="A future company • A big ambition">Будущая компания • Большая цель</div>
+<h1>Мы — <span>KinjalTeam</span></h1>
+<p class="lead" data-ru="Мы начинаем с малого, но думаем масштабно. Наша цель — вырасти от небольших магазинов до собственной сети филиалов, шаг за шагом создавая сильную компанию." data-en="We start small, but think big. Our goal is to grow from small shops into a network of branches, building a strong company step by step.">Мы начинаем с малого, но думаем масштабно. Наша цель — вырасти от небольших магазинов до собственной сети филиалов, шаг за шагом создавая сильную компанию.</p>
+<div class="actions"><a class="btn gold" href="#goal" data-ru="Узнать нашу цель ↓" data-en="Discover our goal ↓">Узнать нашу цель ↓</a><a class="btn" href="https://discord.gg/WUutAVqvQ" target="_blank" rel="noopener">Наш Discord ↗</a></div>
+</div></div></div>
+<section class="dark" id="about"><div class="wrap"><div class="eyebrow" data-ru="КТО МЫ" data-en="WHO WE ARE">КТО МЫ</div>
+<h2 data-ru="KinjalTeam — компания, которая строит своё будущее" data-en="KinjalTeam — a company building its future">KinjalTeam — компания, которая строит своё будущее</h2>
+<p class="intro" data-ru="KinjalTeam — будущая компания, созданная вокруг общей идеи: развиваться, учиться и двигаться к большим целям. Мы понимаем, что большие результаты не появляются за один день. Поэтому готовы начинать с небольших шагов и постепенно расти." data-en="KinjalTeam is a future company built around a shared idea: learn, improve, and work toward ambitious goals. Meaningful results do not happen overnight, so we are ready to start with small steps and grow over time.">KinjalTeam — будущая компания, созданная вокруг общей идеи: развиваться, учиться и двигаться к большим целям. Мы понимаем, что большие результаты не появляются за один день. Поэтому готовы начинать с небольших шагов и постепенно расти.</p>
+</div></section>
+<section id="goal"><div class="wrap"><div class="eyebrow" data-ru="НАША ЦЕЛЬ" data-en="OUR GOAL">НАША ЦЕЛЬ</div>
+<h2 data-ru="От маленьких магазинов — к большой сети" data-en="From small shops to a growing network">От маленьких магазинов — к большой сети</h2>
+<div class="callout" data-ru="Наша цель — вырасти от небольших магазинов до филиалов в разных местах. Мы будем стремиться к этому вместе: ставить реальные задачи, двигаться постепенно и не отказываться от своей мечты." data-en="Our goal is to grow from small shops into branches in different locations. We will work toward it together: set practical milestones, make steady progress, and keep believing in our vision.">Наша цель — вырасти от небольших магазинов до филиалов в разных местах. Мы будем стремиться к этому вместе: ставить реальные задачи, двигаться постепенно и не отказываться от своей мечты.</div>
+<div class="grid">
+<article class="card"><div class="num">01 / START</div><h3 data-ru="Начать с малого" data-en="Start small">Начать с малого</h3><p data-ru="Заложить основу и сделать первые шаги." data-en="Build a foundation and take the first steps.">Заложить основу и сделать первые шаги.</p></article>
+<article class="card"><div class="num">02 / GROW</div><h3 data-ru="Развиваться" data-en="Grow">Развиваться</h3><p data-ru="Улучшать идеи, набираться опыта и расширять возможности." data-en="Improve ideas, gain experience, and expand our capabilities.">Улучшать идеи, набираться опыта и расширять возможности.</p></article>
+<article class="card"><div class="num">03 / EXPAND</div><h3 data-ru="Открывать филиалы" data-en="Open branches">Открывать филиалы</h3><p data-ru="Стремиться к созданию сети магазинов и узнаваемой компании." data-en="Work toward a network of shops and a recognizable company.">Стремиться к созданию сети магазинов и узнаваемой компании.</p></article>
+</div></div></section>
+<section class="dark" id="join"><div class="wrap"><div class="eyebrow" data-ru="СТАНЬ ЧАСТЬЮ ПУТИ" data-en="BE PART OF THE JOURNEY">СТАНЬ ЧАСТЬЮ ПУТИ</div>
+<h2 data-ru="Хочешь присоединиться к KinjalTeam?" data-en="Want to join KinjalTeam?">Хочешь присоединиться к KinjalTeam?</h2>
+<p class="intro" data-ru="Если тебе близка наша идея, отправь свою анкету на нашу почту. Расскажи о себе, своих интересах и о том, чем хотел(а) бы помочь." data-en="If you believe in our idea, send your application to our email. Tell us about yourself, your interests, and how you would like to contribute.">Если тебе близка наша идея, отправь свою анкету на нашу почту. Расскажи о себе, своих интересах и о том, чем хотел(а) бы помочь.</p>
+<div class="two"><article class="card"><div class="num">COMMUNITY</div><h3 data-ru="Наш Discord-сервер" data-en="Our Discord server">Наш Discord-сервер</h3><p data-ru="Присоединяйся к сообществу и следи за новостями." data-en="Join our community and follow the updates.">Присоединяйся к сообществу и следи за новостями.</p><a class="btn gold" href="https://discord.gg/WUutAVqvQ" target="_blank" rel="noopener" data-ru="Войти в Discord ↗" data-en="Join Discord ↗">Войти в Discord ↗</a></article>
+<article class="card"><div class="num">APPLICATION</div><h3 data-ru="Отправить анкету" data-en="Send an application">Отправить анкету</h3><p data-ru="Напиши нам на почту и приложи свою анкету." data-en="Email us and attach your application.">Напиши нам на почту и приложи свою анкету.</p><a class="btn gold" href="mailto:rm965384@gmail.com?subject=Анкета%20в%20KinjalTeam&body=Здравствуйте!%0AМеня%20зовут:%0AМои%20интересы%20и%20навыки:%0AЧем%20я%20могу%20помочь%20KinjalTeam:%0AПочему%20хочу%20присоединиться:">rm965384@gmail.com ↗</a></article></div>
+<p class="note" data-ru="Не указывай в анкете пароли, домашний адрес и другие конфиденциальные данные." data-en="Do not include passwords, your home address, or other confidential information in your application.">Не указывай в анкете пароли, домашний адрес и другие конфиденциальные данные.</p>
+</div></section></main>
+<footer><div class="wrap"><span>© <span id="year"></span> KinjalTeam</span><span data-ru="Большие цели начинаются с первых шагов." data-en="Big goals begin with the first steps.">Большие цели начинаются с первых шагов.</span></div></footer>
+<script>
+let lang='ru';document.getElementById('lang').addEventListener('click',()=>{lang=lang==='ru'?'en':'ru';document.documentElement.lang=lang;document.querySelectorAll('[data-ru][data-en]').forEach(e=>e.textContent=e.dataset[lang]);document.getElementById('lang').textContent=lang==='ru'?'EN':'RU'});document.getElementById('year').textContent=new Date().getFullYear();
+</script></body></html>
